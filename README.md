@@ -90,6 +90,6 @@ pnpm install
 anchor test
 ```
 
-### Additional Notes for Evaluators
+### Wrapup
 
-This was my first Solana dApp and the learning curve was steep! The biggest challenges were figuring out PDA's and dealing with client side interaction with the contracts. PDAs were confusing at first but once they clicked, the deterministic addressing made everything much cleaner.
+This project was developed a full stack project by http://x.com/rohanBuilds/ as a part of my Ackee SOS 7 Graduation . Would appreciate a ⭐ if you like it !
