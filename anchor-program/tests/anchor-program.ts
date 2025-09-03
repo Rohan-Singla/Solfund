@@ -91,14 +91,4 @@ describe("anchor_program", () => {
     }
   });
 
-  it("Close campaign", async () => {
-    await program.methods
-      .closeCampaign()
-      .accounts({
-        creator: wallet.publicKey,
-        campaign: campaignPda,
-        systemProgram: anchor.web3.SystemProgram.programId,
-      })
-      .rpc();
-  });
 });

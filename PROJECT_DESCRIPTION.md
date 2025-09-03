@@ -7,7 +7,7 @@
 ## Project Overview
 
 ### Description
-Solfund is a decentralized crowdfunding dApp built on Solana and deployed on devnet. It enables project creators to launch campaigns with a funding goal and deadline. Contributors can donate SOL to active campaigns. If the goal is met, the campaign creator can withdraw the funds. If the goal is not met by the deadline, contributors are eligible for refunds.
+Solfund is a decentralized crowdfunding dApp built on Solana and deployed on devnet. It enables project creators to launch campaigns with a funding goal and deadline. Contributors can donate SOL to active campaigns. If the goal is met before the deadline the campaign creator can withdraw the funds with the wallet they used to create . If the goal is not met by the deadline, contributors can do a refund.
 
 ### Key Features
 
@@ -17,9 +17,9 @@ Solfund is a decentralized crowdfunding dApp built on Solana and deployed on dev
 
 - End Campaigns: Once the campaign deadline passes, no one can donate to that campaign now and says campaign is over.
 
-- Withdraw Funds: If successful, the campaign creator can withdraw the funds.
+- Withdraw Funds: If successful and goal is met before the deadline , the campaign creator can withdraw the funds.
 
-- Refunds: If unsuccessful, contributors can claim refunds for their donations.
+- Refunds: If unsuccessful , contributors can claim refunds for their donations.
   
 ### How to Use the dApp
 
